@@ -83,8 +83,8 @@ module.exports = {
 			const groupPrefix = utils.getPrefix(event.threadID);
 			const senderID = event.senderID;
 
-			const dateTime = new Date().toLocaleString("en-US", {
-				timeZone: "Asia/Dhaka",
+			const dateTime = new Date().toLocaleString("en-US", 
+				timeZone: "Asia/Nepal"		                       
 				hour: "2-digit",
 				minute: "2-digit",
 				hour12: true,
